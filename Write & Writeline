@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace writeline_write
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("This is an example");
+            Console.WriteLine("hello world");
+            Console.Write("my name is :");
+
+            Console.WriteLine("Rohan");
+            Console.ReadLine();
+        }
+    }
+}
