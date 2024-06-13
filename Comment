@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace comment
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //this is a single line comment
+            //above statement will be not printed in the output console
+            Console.WriteLine("comment");
+            Console.ReadLine();
+
+
+            /* this is multiple line comment
+             * we can write the multiple line as a comment
+             * the above statement print the string comment in console
+             */
+        }
+    }
+}
