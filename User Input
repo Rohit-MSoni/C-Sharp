@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace input_from_user
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter your name :");//take input from user
+            string name = Console.ReadLine();//stores the name in name variable
+            Console.WriteLine("hello " + name);//print the name 
+            Console.ReadLine();//to hold the output console
+        }
+    }
+}
