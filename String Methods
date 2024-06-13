@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace String_Methods
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*            Console.WriteLine(hello.Length);
+            *//*            Console.WriteLine(hello.ToUpper());
+            *//*            Console.WriteLine(hello.ToLower());
+            *//*            Console.WriteLine("how are you " + hello);
+
+            */
+/*            Console.WriteLine("enter your name:"); 
+            string name = Console.ReadLine();
+            Console.WriteLine("how many candies do you want");
+            string candies = Console.ReadLine();
+
+            Console.WriteLine($"your name is : {name}. you will get { candies} candies");
+            */
+            
+            String hello = "hello my name is rohit";
+/*            Console.WriteLine(hello[2]);
+*/            
+/*                Console.WriteLine(hello.IndexOf("name"));
+*/            
+            Console.WriteLine(hello.Substring(8));
+            
+            
+            Console.ReadLine();
+        }
+    }
+}
